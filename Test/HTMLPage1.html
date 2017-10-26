@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="js/jquery-1.10.2.js"></script>
+</head>
+<body>
+
+</body>
+</html>
+<script type="text/javascript">
+
+    $(function () {
+        var test = $("input[name='Column_txtFileUpload']:first");
+        var fileList = $("input[name='Column_txtFileUpload']:first").val();
+        if ($("input[name='Column_txtFileUpload']:first") && fileList != undefined && fileList != "" && fileList != "[]") {
+           alert("对不起，审批通过不需要上传修正的盖章文件！");
+        }
+    });
+   
+</script>
